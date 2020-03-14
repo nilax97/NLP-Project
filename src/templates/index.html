@@ -1,0 +1,216 @@
+<html>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+  <link rel="stylesheet" href="http://www.cse.iitd.ac.in/nlpdemo/web/public/css/bootstrap.css">
+	 <link rel="stylesheet" href="http://www.cse.iitd.ac.in/nlpdemo/web/public/css/bootstrap-responsive.css">
+    <style type="text/css">
+      /* <![CDATA[ */  
+      html *
+      {
+        font-family:georgia,garamond,serif;
+      }
+
+      
+      .head {
+        font-weight: bold;
+        width: 150px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: lightgrey;
+        padding: 4px;
+        margin-bottom: 0px;
+      }        
+        
+      .item {
+        width: 144px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: lightgrey;
+        padding: 4px;
+        padding-left: 10px;
+        margin-bottom: 0px;
+      }
+
+      #topright {
+        position: absolute;
+        right: 0;
+        top: 0;          
+    } 
+
+    .nav {          
+      background-color: #333;
+      font-family: Arial, Helvetica, sans-serif;          
+      position: fixed;
+      top: 0;          
+      height: 100vh;                    
+      overflow-y: auto;
+    }                
+    
+    ::-webkit-scrollbar
+    {
+      width: 0px;
+      background: transparent;
+    }                             
+    ::-webkit-scrollbar-thumb
+        {
+          background:orange;
+        }
+    
+      .dropdown {
+        float: right;
+        overflow: hidden;
+      }
+      
+      
+
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;       
+           
+        
+      }
+      
+      .nav a:hover, .dropdown:hover, .dropbtn {
+        background-color: red;
+        border-radius: 5px 5px 5px 5px;                                                      
+      }
+      
+      .dropdown-content {
+        display: none;          
+        position: fixed;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;          
+      }
+      
+      .nav .dropdown-menu-right {
+        position: relative;
+        
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      #head1 { 
+        display: block;
+        font-size: 2em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;                    
+      }        
+      
+      body { padding-top: 20px; position: relative;}
+
+      #watermark
+      {
+      position:fixed;
+      top:5px;
+      right:5px;
+      opacity:0.5;
+      z-index:99;
+      color:white;
+      }
+      
+      .container
+      {
+        padding-left: 225px;
+      }
+
+      .caret {text-align: right;}
+
+        {% block style %}
+        {% endblock %}
+        
+      /* ]]> */
+    </style>
+  <style type="text/css"></style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style>
+<script type="text/javascript" language="javascript">
+function load_menu (e) {
+//window.alert(1);
+  var xmlhttp;
+  xmlhttp=new XMLHttpRequest();
+  xmlhttp.open("GET","http://www.cse.iitd.ac.in/nlpdemo/menu/menu.html",true);
+  xmlhttp.send();
+  xmlhttp.onreadystatechange=function()
+  {
+	  window.alert(2);
+//window.alert("xmlhttp.readyState");
+	//window.alert(xmlhttp.readyState);
+//window.alert("xmlhttp.status");
+	//window.alert(xmlhttp.status);
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+	//window.alert(3);
+      document.getElementById("divMenu").innerHTML=xmlhttp.responseText;
+    }
+  }
+}
+
+</script>
+
+    </head>
+     <body  onload="javascript:load_menu()">
+        <img id="watermark" src="https://www.cse.iitd.ac.in/dair/images/banners/iitdelhi_logo50.png">
+	 <div>
+      		 <div id="divMenu" style="width: 200px; float: left;">
+              	</div>
+		<div class="container">
+			<div style="height: 20px"></div>
+			<div id="content">
+{% block content %}
+{% endblock %}
+			</div>
+      <div id="project-details">
+{% block proj_details %}
+{% endblock %}
+</div>
+{% block copyright %}
+<div id="metadata">
+        <p> Instructor: <a href="http://www.cse.iitd.ac.in/~mausam/" target="_blank"> Prof. Mausam </a> </p>
+        <p> Copyright &copy; 2017, <a href="http://www.iitd.ac.in" target="_blank"> IIT Delhi </a>, All Rights Reserved. </p>
+      </div>		
+{% endblock %}
+</div>
+</div>
+<!--<div id="feedly-mini" title="feedly Mini tookit"></div></body></html>-->
+       
+    </body>
+</html>

@@ -1,0 +1,63 @@
+{
+    "net": "rnn-ext_abs_rl",
+    "net_args": {
+        "abstractor": {
+            "net": "base_abstractor",
+            "net_args": {
+                "vocab_size": 30004,
+                "emb_dim": 128,
+                "n_hidden": 256,
+                "bidirectional": true,
+                "n_layer": 1
+            },
+            "traing_params": {
+                "optimizer": [
+                    "adam",
+                    {
+                        "lr": 0.001
+                    }
+                ],
+                "clip_grad_norm": 2.0,
+                "batch_size": 32,
+                "lr_decay": 0.5
+            }
+        },
+        "extractor": {
+            "net": "ml_rnn_extractor",
+            "net_args": {
+                "vocab_size": 30004,
+                "emb_dim": 128,
+                "conv_hidden": 100,
+                "lstm_hidden": 256,
+                "lstm_layer": 1,
+                "bidirectional": true
+            },
+            "traing_params": {
+                "optimizer": [
+                    "adam",
+                    {
+                        "lr": 0.001
+                    }
+                ],
+                "clip_grad_norm": 2.0,
+                "batch_size": 32,
+                "lr_decay": 0.5
+            }
+        }
+    },
+    "train_params": {
+        "optimizer": [
+            "adam",
+            {
+                "lr": 0.0001
+            }
+        ],
+        "clip_grad_norm": 2.0,
+        "batch_size": 32,
+        "lr_decay": 0.5,
+        "gamma": 0.95,
+        "reward": "rouge-l",
+        "stop_coeff": 1.0,
+        "stop_reward": "rouge-1"
+    }
+}
