@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+{% block content %}
+		  		<h1> Fast Abstractive Summarization </h1>
+				
+
+				<p>
+				    <u><span style="font-size:22px;"></span></u></p>
+				<p> Enter the text to be summarised below. Each sentence should be in a seperate line. <br> </p>
+
+				<form action="" method="post" name="query">
+					<p class="form form-reset">
+            Please enter your input:<br>
+            <textarea name="input_text" rows="10" cols="10">Enter the document here.</textarea></p>
+
+            <input name="submit_btn" type="submit" value="Submit" /></p>
+
+          </p>
+				</form>
+
+        <p> {{ result }} </p>
+        <p> {{ word1 }} </p>
+        <p> {{ word2 }} </p>
+        <p> {{ word3 }} </p>
+				<br>
+				<pre style="background-color: transparent; border: 0">
+				</pre>
+{% endblock %}
+{% block proj_details %}
+        <p> Project Report can be found <a href="https://drive.google.com/file/d/1K8RI9Rfo3erZCrWiQ4iifG88hxIpHW04/preview" target="_blank"> here. </a> </p>
+        <p> Credits: This work was done as part of <a href="http://www.cse.iitd.ac.in/~mausam/courses/col772/spring2019/" target="_blank"> COL772: Natural Language Processing - Spring 2019 </a> by Nilaksh Agarwal </a> and Kartik Goyal </a> </p>
+{% endblock %}
