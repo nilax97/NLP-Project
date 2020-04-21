@@ -3,10 +3,16 @@
   <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="#" target="_blank">
+  <a href="https://github.com/nilax97/NLP-Project/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+  <a href="https://linkedin.com/in/nilaksh97" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin" />
+  </a>
 </p>
+
+linkedin-shield]: 
+[linkedin-url]: 
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
