@@ -34,12 +34,7 @@ Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf"
 👤 **Nilaksh Agarwal**
 
 * Website: https://nilax97.github.io/
-* Github: <a href="http://github.com/nilax97" target="_blank">
-    <img alt="GitHub followers" src="https://img.shields.io/github/followers/nilax97?label=Github&style=social">
-  </a>
-
-* <a href="https://linkedin.com/in/nilaksh97" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" />
-  </a>
+* Github: [@nilax97](https://github.com/nilax97)
+* LinkedIn: [@nilaksh97](https://linkedin.com/in/nilaksh97)
 
 ***
