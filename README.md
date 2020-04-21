@@ -37,7 +37,7 @@ Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf"
 
 **Nilaksh Agarwal**
 
-* Website: https://nilax97.github.io/
+* Website: [nilax97.github.io](https://nilax97.github.io/)
 * Github: [@nilax97](https://github.com/nilax97)
 * LinkedIn: [@nilaksh97](https://linkedin.com/in/nilaksh97)
 
