@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to NLP-Project 👋</h1>
+<h1 align="center">NLP-Project</h1>
 <p>
   <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
