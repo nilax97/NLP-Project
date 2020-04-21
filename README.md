@@ -1,9 +1,7 @@
 <h1 align="center">NLP Project</h1>
-<p>
 [![Documentation][documentation-shield]][documentation-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-</p>
 > Project on Abstractive Summarization of News for course on Natural Language Processing at IIT Delhi
 
 ## Install
