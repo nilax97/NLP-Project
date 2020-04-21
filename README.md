@@ -35,7 +35,7 @@ Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf"
 
 * Website: https://nilax97.github.io/
 * Github: <a href="http://github.com/nilax97" target="_blank">
-    <img alt="Github" src="https://img.shields.io/github/followers/nilax97?label=Github&style=social" />
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/nilax97?label=Github&style=social">
   </a>
 
 * <a href="https://linkedin.com/in/nilaksh97" target="_blank">
