@@ -1,7 +1,20 @@
 <h1 align="center">NLP Project</h1>
-[![Documentation][documentation-shield]][documentation-url]
+<p>
+  <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
 > Project on Abstractive Summarization of News for course on Natural Language Processing at IIT Delhi
 
 ## Install
@@ -33,10 +46,3 @@ Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf"
 * LinkedIn: [@nilaksh97](https://linkedin.com/in/nilaksh97)
 
 ***
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: <img alt="GitHub" src="https://img.shields.io/github/license/nilax97/NLP-Project">
-[license-url]: https://github.com/nilax97/NLP-Project/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/nilaksh97
