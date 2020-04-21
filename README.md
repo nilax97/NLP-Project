@@ -7,13 +7,13 @@
 Table of Contents
 =================
 
-* [Install](#install)
+* [Installation](#install)
 * [Usage](#usage)
 * [Documentation](#documentation)
 * [Author](#author)
 * [License](#license)
 
-## Install
+## Installation
 
 ```sh
 pip install -r requirements.txt
@@ -33,7 +33,7 @@ Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf"
 
 ## Author
 
-👤 **Nilaksh Agarwal**
+**Nilaksh Agarwal**
 
 * Website: https://nilax97.github.io/
 * Github: [@nilax97](https://github.com/nilax97)
