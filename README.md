@@ -6,18 +6,8 @@
   <a href="https://github.com/nilax97/NLP-Project/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://linkedin.com/in/nilaksh97" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" />
-  </a>
 </p>
 
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 > Project on Abstractive Summarization of News for course on Natural Language Processing at IIT Delhi
 
@@ -43,10 +33,13 @@ Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf"
 
 👤 **Nilaksh Agarwal**
 
-![GitHub followers](https://img.shields.io/github/followers/nilax97?label=Follow&style=social)
-
 * Website: https://nilax97.github.io/
-* Github: [@nilax97](https://github.com/nilax97)
-* LinkedIn: [@nilaksh97](https://linkedin.com/in/nilaksh97)
+* Github: <a href="http://github.com/nilax97" target="_blank">
+    <img alt="Github" src="https://img.shields.io/github/followers/nilax97?label=Github&style=social" />
+  </a>
+
+* <a href="https://linkedin.com/in/nilaksh97" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" />
+  </a>
 
 ***
