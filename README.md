@@ -27,6 +27,8 @@ cd src
 python app.py
 ```
 
+Then navigate to `[http://127.0.0.1:5000/]` and access the tool
+
 ## Documentation
 
 Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf" target="_blank"> report.pdf  </a>
