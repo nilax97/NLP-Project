@@ -7,12 +7,10 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <a href="https://linkedin.com/in/nilaksh97" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" />
   </a>
 </p>
 
-linkedin-shield]: 
-[linkedin-url]: 
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
