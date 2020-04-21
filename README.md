@@ -4,7 +4,7 @@
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="#" target="_blank">
-    <img alt="License: MIT License" src="https://img.shields.io/badge/License-MIT License-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
 
@@ -13,13 +13,15 @@
 ## Install
 
 ```sh
-pip install -r requirements.txt; pip install -r demo_requirements.txt
+pip install -r requirements.txt
+pip install -r demo_requirements.txt
 ```
 
 ## Usage
 
 ```sh
-cd src; python app.py
+cd src
+python app.py
 ```
 
 ## Author
@@ -30,9 +32,4 @@ cd src; python app.py
 * Github: [@nilax97](https://github.com/nilax97)
 * LinkedIn: [@nilaksh97](https://linkedin.com/in/nilaksh97)
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
