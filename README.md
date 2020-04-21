@@ -1,7 +1,6 @@
-# NLP Project
-
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg) ](https://github.com/nilax97/NLP-Project/blob/master/report.pdf) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/nilax97/NLP-Project/blob/master/LICENSE)
 
+# NLP Project
 
 > Project on Abstractive Summarization of News for course on Natural Language Processing at IIT Delhi
 
