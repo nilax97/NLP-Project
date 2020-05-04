@@ -1,15 +1,13 @@
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg) ](report.pdf) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#nlp-project)
 
 # ➤ NLP Project
 
 > Project on Abstractive Summarization of News for course on Natural Language Processing at IIT Delhi
 
-Table of Contents
-=================
+## ➤Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
