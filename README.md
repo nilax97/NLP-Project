@@ -1,4 +1,5 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg) ](report.pdf) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg) ](report.pdf) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#nlp-project)
