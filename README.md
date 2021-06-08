@@ -45,6 +45,6 @@ Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf"
  
 MIT License
 
-Copyright (c) 2020 Nilaksh Agarwal
+Copyright (c) 2021 Nilaksh Agarwal
 
 ***
